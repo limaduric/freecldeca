@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Formulário de Pesquisa</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Formulário de Pesquisa</h1>
+        <p id="description">Entre em contato conosco preenchendo o formulário abaixo. Teremos o prazer de saber o que
+            você achou sobre nosso serviço!</p>
+        <form id="survey-form" action="" method="post">
+            <fieldset>
+                <label for="name" id="name-label"><span class="description">Nome: </span><input type="text" id="name"
+                        placeholder="Escreva seu nome" required></label>
+                <label for="email" id="email-label"><span class="description">Email: </span><input type="email"
+                        id="email" placeholder="email@email.com" required></label>
+                <label for="number" id="number-label"><span class="description">Idade: </span><input type="number"
+                        min="18" max="120" id="number" placeholder="0"></label>
+                <label for="dropdown"><span class="description">Qual seu nível de satisfação com nossos
+                        serviços?</span><br>
+                    <select id="dropdown">
+                        <option>Péssimo</option>
+                        <option>Ruim</option>
+                        <option>Regular</option>
+                        <option>Bom</option>
+                        <option>Ótimo</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <p class="description">Quais aspectos você mais valoriza em nossos serviços?</p>
+                <label for="checkbox-1"><input type="checkbox" value="Rapidez" id="checkbox-1" name="checkbox">Rapidez
+                    na
+                    entrega</label>
+                <label for="checkbox-2"><input type="checkbox" value="Atendimento" id="checkbox-2"
+                        name="checkbox">Atendimento personalizado</label>
+                <label for="checkbox-3"><input type="checkbox" value="Variedade" id="checkbox-3"
+                        name="checkbox">Variedade
+                    de produtos</label>
+                <label for="checkbox-4"><input type="checkbox" value="Preços" id="checkbox-4" name="checkbox">Preços
+                    baixos</label>
+            </fieldset>
+            <fieldset>
+                <p class="description">Você recomendaria nossos serviços?</p>
+                <label for="radio-1"><input type="radio" name="radio" value="Sim" id="radio-1">Sim</label>
+                <label for="radio-2"><input type="radio" name="radio" value="Não" id="radio-2">Não</label>
+                <label for="radio-3"><input type="radio" name="radio" value="Não tenho certeza" id="radio-3">Não tenho
+                    certeza</label>
+            </fieldset>
+            <fieldset>
+                <p class="description">Forneça por gentileza um comentário adicional ou sugestões:</p>
+                <textarea cols="50" rows="5"></textarea>
+                <button id="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
