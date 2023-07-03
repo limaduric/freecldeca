@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>Documentação CSS</h1>
+    </header>
+    <nav id="navbar">
+        <header>Documentação CSS</header>
+        <ul>
+            <li><a class="nav-link" href="#Introdução">Introdução</a></li>
+            <li><a class="nav-link" href="#Seletores">Seletores</a></li>
+            <li><a class="nav-link" href="#Propriedades_CSS">Propriedades CSS</a></li>
+            <li><a class="nav-link" href="#Exemplos_de_código">Exemplos de código</a></li>
+            <li><a class="nav-link" href="#Lista_de_recursos_úteis">Lista de recursos úteis</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introdução" class="main-section">
+            <header>
+                <h2>Introdução</h2>
+            </header>
+            <p>
+                O CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para descrever a apresentação de um
+                documento HTML. Com o CSS, você pode controlar a aparência dos elementos em uma página web.
+            </p>
+        </section>
+
+        <section id="Seletores" class="main-section">
+            <header>
+                <h2>Seletores</h2>
+            </header>
+            <p>
+                Os seletores são usados para identificar os elementos HTML aos quais você deseja aplicar estilos.
+                Existem vários tipos de seletores, incluindo:
+            </p>
+            <ul>
+                <li><strong>Seletor de elemento</strong>: seleciona elementos com base em seus nomes. Por exemplo, o
+                    seletor
+                    <code>h1</code> seleciona
+                    todos os elementos de cabeçalho <code>&lt;h1&gt;</code>.
+                </li>
+                <li><strong>Seletor de classe</strong>: seleciona elementos com base em suas classes. Por exemplo, o
+                    seletor
+                    <code>.destaque</code>
+                    seleciona todos os elementos com a classe "destaque".
+                </li>
+                <li><strong>Seletor de ID</strong>: seleciona um elemento com base em seu ID exclusivo. Por exemplo, o
+                    seletor <code>#logo</code>
+                    seleciona o elemento com o ID "logo".</li>
+            </ul>
+            <p>Os seletores são uma parte fundamental do CSS. Eles são usados para selecionar elementos HTML específicos
+                e aplicar estilos a esses elementos. Existem diferentes tipos de seletores, como seletores de elemento,
+                seletores de classe e seletores de ID. Ao usar seletores corretamente, você pode direcionar e estilizar
+                os elementos desejados em sua página.</p>
+        </section>
+        <section id="Propriedades_CSS" class="main-section">
+            <header>
+                <h2>Propriedades CSS</h2>
+            </header>
+            <p>
+                As propriedades CSS são usadas para definir estilos para os elementos selecionados. Algumas propriedades
+                comuns incluem:
+            </p>
+            <ul>
+                <li><strong>color</strong>: define a cor do texto.
+                </li>
+                <li><strong>font-size</strong>: define o tamanho da fonte.
+                </li>
+                <li><strong>background-color</strong>: define a cor de fundo do elemento.</li>
+                <li><strong>margin</strong>: define as margens do elemento.</li>
+            </ul>
+            <p>As propriedades CSS são usadas para definir estilos para os elementos selecionados. Cada propriedade tem
+                um valor que define como o elemento deve ser estilizado. Existem várias propriedades CSS disponíveis,
+                como cor, fonte, tamanho, margem, entre outras. Ao combinar diferentes propriedades, você pode
+                personalizar completamente a aparência dos elementos em sua página.</p>
+        </section>
+        <section id="Exemplos_de_código" class="main-section">
+            <header>
+                <h2>Exemplos de código</h2>
+            </header>
+            <p>
+                Aqui estão alguns exemplos de código CSS:
+            </p>
+            <pre><code>
+/* Exemplo de estilo de cabeçalho */
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+/* Exemplo de estilo de parágrafo */
+p {
+    color: green;
+    font-size: 16px;
+}
+
+/* Exemplo de estilo de link */
+a {
+    color: red;
+    text-decoration: none;
+}
+            </code></pre>
+            <p>Os exemplos de código CSS fornecidos na documentação são úteis para demonstrar como aplicar estilos a
+                diferentes elementos. Cada exemplo contém uma seção de código que mostra como selecionar um elemento e
+                uma lista de propriedades que definem os estilos para esse elemento. Ao experimentar esses exemplos e
+                fazer ajustes, você pode aprender como criar seus próprios estilos personalizados.</p>
+        </section>
+        <section id="Lista_de_recursos_úteis" class="main-section">
+            <header>
+                <h2>Lista de recursos úteis</h2>
+            </header>
+            <p>
+                Aqui está uma lista de recursos úteis para aprender mais sobre CSS:
+            </p>
+            <ol>
+                <li>W3Schools - CSS Tutorial: <a href="https://www.w3schools.com/css/" target="_new">link</a></li>
+                <li>MDN Web Docs - CSS: Cascading Style Sheets: <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_new">link</a></li>
+                <li>CSS-Tricks: <a href="https://css-tricks.com/" target="_new">link</a></li>
+                <li>CSS Zen Garden: <a href="http://www.csszengarden.com/" target="_new">link</a></li>
+                <li>Can I Use: <a href="https://caniuse.com/" target="_new">link</a></li>
+            </ol>
+            <p>A lista de recursos úteis fornece links para websites onde você pode encontrar mais informações e
+                tutoriais sobre CSS. Esses recursos podem ser extremamente úteis para aprofundar seus conhecimentos em
+                CSS e aprender técnicas avançadas de estilização. Eles incluem tutoriais, documentações e comunidades
+                online que podem ajudar a resolver dúvidas e fornecer inspiração para melhorar suas habilidades em CSS.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Feito com ❤️ por <a href="#">Richard Lima</a>.</p>
+    </footer>
+</body>
+
+</html>
